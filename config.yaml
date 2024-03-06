@@ -28,7 +28,7 @@ siteStream:
     - c_searchPage.slug
   localization:
     locales:
-      - en
+      - ja
     primary: false
   entityId: site-entity
 sitemap:
