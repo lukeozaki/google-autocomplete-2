@@ -56,7 +56,7 @@ const Core = (props: CoreProps) => {
         <div className="flex flex-row flex-wrap">
           <CoreSection>
             <CoreHeading>Information</CoreHeading>
-            <Address address={profile.address} />
+            <Address address={profile.address.region + profile.address.city + profile.address.line1} />
             <Link
               className="Link--primary Link--underline font-bold mt-2"
               href={`${getDirections(
