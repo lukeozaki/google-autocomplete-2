@@ -109,7 +109,6 @@ const Core = (props: CoreProps) => {
                   Saturday: "土曜日",
                 }}
                 collapseDays={true}
-                intervalStringsBuilderFn={customIntervalStringsBuilder}
                 timeOptions={{ hour12: false }}
                />               
               )}
