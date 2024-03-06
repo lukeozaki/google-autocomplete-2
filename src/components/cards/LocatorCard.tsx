@@ -12,7 +12,7 @@ export interface LocatorCardProps {
 const LocatorCard = (props: LocatorCardProps & CardProps<LocationProfile>) => {
   const { result } = props;
   const { rawData } = result;
-  const { address, hours, slug } = rawData;
+  const { address, hours, slug, name } = rawData;
   const { relativePrefixToRoot } = useTemplateData();
 
   return (
@@ -23,7 +23,7 @@ const LocatorCard = (props: LocatorCardProps & CardProps<LocationProfile>) => {
           href={slug ? relativePrefixToRoot + slug : ""}
         >
           <h3 className="Heading Heading--sub pb-2 sm:pb-4">
-            {address.line1 ? address.line1 : address.city}
+            {name}
           </h3>
         </MaybeLink>
         <TeaserDistance {...props} className="hidden sm:flex" />
@@ -37,7 +37,7 @@ const LocatorCard = (props: LocatorCardProps & CardProps<LocationProfile>) => {
           />
         </div>
       )}
-      <div>{address.line1}</div>
+      <div>{address.region + address.city + address.line1}</div>
       <TeaserDistance {...props} className="sm:hidden" />
     </div>
   );
@@ -46,7 +46,7 @@ const LocatorCard = (props: LocatorCardProps & CardProps<LocationProfile>) => {
 const TeaserDistance = (
   props: LocatorCardProps & CardProps<LocationProfile> & { className?: string }
 ) => {
-  const { className, result, useKilometers = false } = props;
+  const { className, result, useKilometers = true } = props;
   const { distanceFromFilter } = result;
 
   if (!distanceFromFilter) {
