@@ -100,7 +100,7 @@ const GooglePredictionsBox = () => {
     const getPredictions = (query: string) => {
       const liveAPIKey = YEXT_PUBLIC_LIVE_API_KEY,
         limit = YEXT_PUBLIC_MAX_LIVE_API_SUGGESTION,
-        entityTypes = "location",
+        entityTypes = YEXT_PUBLIC_LIVE_API_ENTITY_TYPES,
         savedFilterIds = YEXT_PUBLIC_SAVED_FILTER_ID;
       const yextUrl = `https://sbx-cdn.yextapis.com/v2/accounts/me/entities?api_key=${liveAPIKey}&v=20240306&entityTypes=${entityTypes}&filter={$or:[{name:{$contains:"${query}"}}]}&fields=name,yextDisplayCoordinate,googlePlaceId&savedFilterIds=${savedFilterIds}&limit=${limit}`;
       const googleAutoCompleteService = window.google
