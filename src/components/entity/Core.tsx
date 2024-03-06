@@ -56,7 +56,18 @@ const Core = (props: CoreProps) => {
         <div className="flex flex-row flex-wrap">
           <CoreSection>
             <CoreHeading>Information</CoreHeading>
-            <Address address={profile.address.region + profile.address.city + profile.address.line1} />
+            <h2 className="text-xl mb-2">住所</h2>
+              <div className="flex gap-x-1 text-sm">
+                <span>〒</span>
+                <p>
+                  {profile.address.postalCode}
+                  <br />
+                  {profile.address.region} {profile.address.city}{" "}
+                  {profile.address.line1}
+                  <br />
+                  {profile.address.line2}
+                </p>
+              </div>
             <Link
               className="Link--primary Link--underline font-bold mt-2"
               href={`${getDirections(
@@ -108,7 +119,7 @@ const Core = (props: CoreProps) => {
                   Friday: "金曜日",
                   Saturday: "土曜日",
                 }}
-                collapseDays={true}
+                collapseDays={false}
                 timeOptions={{ hour12: false }}
                />               
               )}
