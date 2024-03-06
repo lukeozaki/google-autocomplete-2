@@ -1,4 +1,4 @@
-import { HoursStatus } from "src/components/entity/HoursStatus";
+import { DisplayHoursStatus } from "src/components/entity/HoursStatus";
 import { Link, Image } from "@yext/pages-components";
 import type { Address, Hours, CTA, Image as ImageType } from "@yext/types";
 
@@ -24,11 +24,7 @@ const Hero = (props: HeroProps) => {
           </div>
           {props.hours && (
             <div className="mb-4">
-              <HoursStatus
-                hours={props.hours}
-                separatorTemplate={() => <span className="bullet" />}
-                dayOfWeekTemplate={() => null}
-              />
+              <DisplayHoursStatus hours={props.hours} />
             </div>
           )}
           {/* TODO(aganesh) : use Reviews component when available */}

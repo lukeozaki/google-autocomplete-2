@@ -1,5 +1,5 @@
 import type { CardProps } from "@yext/search-ui-react";
-import { HoursStatus } from "src/components/entity/HoursStatus";
+import { DisplayHoursStatus } from "src/components/entity/HoursStatus";
 import classNames from "classnames";
 import { LocationProfile } from "src/types/entities";
 import { useTemplateData } from "src/common/useTemplateData";
@@ -30,11 +30,7 @@ const LocatorCard = (props: LocatorCardProps & CardProps<LocationProfile>) => {
       </div>
       {hours && (
         <div className="pb-2 sm:pb-4">
-          <HoursStatus
-            dayOfWeekTemplate={() => null}
-            hours={hours}
-            separatorTemplate={() => <span className="bullet" />}
-          />
+          <DisplayHoursStatus hours={hours} />
         </div>
       )}
       <div>{address.region + address.city + address.line1}</div>

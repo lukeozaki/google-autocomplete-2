@@ -1,4 +1,4 @@
-import { HoursStatus } from "src/components/entity/HoursStatus";
+import { DisplayHoursStatus } from "src/components/entity/HoursStatus";
 import { Address } from "@yext/pages-components";
 import type { LiveAPIProfile, LocationProfile } from "src/types/entities";
 import { CardComponent } from "src/models/cardComponent";
@@ -24,7 +24,7 @@ const DirectoryCard: CardComponent<
 
       {profile.hours && (
         <div className="mb-4 text-sm">
-          <HoursStatus hours={profile.hours} />
+          <DisplayHoursStatus hours={profile.hours} />
         </div>
       )}
 
