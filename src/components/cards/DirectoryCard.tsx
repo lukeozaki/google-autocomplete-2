@@ -1,4 +1,4 @@
-import { HoursStatus } from "@yext/sites-react-components";
+import { HoursStatus } from "src/components/entity/HoursStatus";
 import { Address } from "@yext/pages-components";
 import type { LiveAPIProfile, LocationProfile } from "src/types/entities";
 import { CardComponent } from "src/models/cardComponent";

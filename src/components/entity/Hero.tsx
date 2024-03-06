@@ -1,4 +1,4 @@
-import { HoursStatus } from "@yext/sites-react-components";
+import { HoursStatus } from "src/components/entity/HoursStatus";
 import { Link, Image } from "@yext/pages-components";
 import type { Address, Hours, CTA, Image as ImageType } from "@yext/types";
 

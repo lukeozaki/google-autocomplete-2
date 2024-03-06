@@ -1,5 +1,5 @@
 import type { CardProps } from "@yext/search-ui-react";
-import { HoursStatus } from "@yext/sites-react-components";
+import { HoursStatus } from "src/components/entity/HoursStatus";
 import classNames from "classnames";
 import { LocationProfile } from "src/types/entities";
 import { useTemplateData } from "src/common/useTemplateData";

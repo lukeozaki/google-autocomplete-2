@@ -56,7 +56,6 @@ const Core = (props: CoreProps) => {
         <div className="flex flex-row flex-wrap">
           <CoreSection>
             <CoreHeading>Information</CoreHeading>
-            <h2 className="text-xl mb-2">住所</h2>
               <div className="flex gap-x-1 text-sm">
                 <span>〒</span>
                 <p>
