@@ -122,7 +122,9 @@ const Locator = (props: LocatorProps) => {
             // providerOptions={{ styles: mapStyles }}
             bounds={results.map((data) => data.rawData.yextDisplayCoordinate)}
             padding={{ top: 100, bottom: 200, left: 50, right: 50 }}
-            providerOptions={{ language: "ja", autocomplete: true }}
+            providerOptions={{ language: "ja", region: 'JP', autocomplete: true }}
+            defaultCenter={{ latitude: 35.67980, longitude: 139.77100 }}
+            defaultZoom="5"
             className="h-full"
             mapRef={mapRef}
             panHandler={panHandler}
