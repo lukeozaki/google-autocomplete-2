@@ -96,7 +96,22 @@ const Core = (props: CoreProps) => {
             <CoreSection>
               <CoreHeading>Hours</CoreHeading>
               {profile.hours && (
-                <HoursTable hours={profile.hours} startOfWeek="Monday" />
+                <HoursTable
+                hours={profile.hours}
+                startOfWeek="Monday"
+                dayOfWeekNames={{
+                  Sunday: "日曜日",
+                  Monday: "月曜日",
+                  Tuesday: "火曜日",
+                  Wednesday: "水曜日",
+                  Thursday: "木曜日",
+                  Friday: "金曜日",
+                  Saturday: "土曜日",
+                }}
+                collapseDays={true}
+                intervalStringsBuilderFn={customIntervalStringsBuilder}
+                timeOptions={{ hour12: false }}
+               />               
               )}
               {profile.additionalHoursText && (
                 <div className="mt-4">{profile.additionalHoursText}</div>
