@@ -18,7 +18,7 @@ const getConfig = (api_key: string) => {
       entityTypes: "location",
       limit: "4",
       radius: "50",
-      savedFilterIds: "<REPLACE-ME>",
+      savedFilterIds: YEXT_PUBLIC_SAVED_FILTER_ID,
       v: "20220927",
     },
   };
