@@ -237,7 +237,7 @@ const GooglePredictionsBox = () => {
           autocomplete_results.innerHTML = "";
           autocomplete_results.style.display = "none";
         }
-      }, 500)
+      }, YEXT_PUBLIC_DEBOUNCE_TIME)
     );
   };
 

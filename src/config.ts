@@ -9,6 +9,7 @@ declare global {
   const YEXT_PUBLIC_SAVED_FILTER_ID: string;
   const YEXT_PUBLIC_MAX_LIVE_API_SUGGESTION: string;
   const YEXT_PUBLIC_LIVE_API_ENTITY_TYPES: string;
+  const YEXT_PUBLIC_DEBOUNCE_TIME: number;
 }
 
 const config: ConfigurationProviderContextType = {
