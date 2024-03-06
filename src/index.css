@@ -1,0 +1,27 @@
+@import "src/styles/variables.css";
+@import "src/styles/utils.css";
+@import "src/styles/fonts.css";
+@import "src/styles/theme.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* TODO(bhaines): remove, this is only necessary until
+https://github.com/yext/pages/issues/211 is resolved */
+#reactele,
+#root {
+  display: grid;
+  height: 100%;
+  grid-template-rows: auto 1fr auto;
+  font-family: theme(fontFamily.primary);
+}

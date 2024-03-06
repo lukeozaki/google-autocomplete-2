@@ -1,0 +1,102 @@
+{
+  "__": {
+    "name": "robots",
+    "staticPage": {}
+  },
+  "_site": {
+    "c_copyrightMessage": "© 2022. All Rights Reserved.",
+    "c_facebook": "https://www.facebook.com/",
+    "c_footerLinks": [
+      {
+        "label": "Link1",
+        "link": "https://www.yext.com",
+        "linkType": "URL"
+      },
+      {
+        "label": "Link2",
+        "link": "https://www.yext.com",
+        "linkType": "URL"
+      },
+      {
+        "label": "Link3",
+        "link": "https://www.yext.com",
+        "linkType": "URL"
+      },
+      {
+        "label": "Link4",
+        "link": "https://www.yext.com",
+        "linkType": "URL"
+      },
+      {
+        "label": "Link5",
+        "link": "https://www.yext.com",
+        "linkType": "URL"
+      }
+    ],
+    "c_header": {
+      "links": [
+        {
+          "label": "Link1",
+          "link": "https://www.yext.com",
+          "linkType": "URL"
+        },
+        {
+          "label": "Link2",
+          "link": "https://www.yext.com",
+          "linkType": "URL"
+        },
+        {
+          "label": "Link3",
+          "link": "https://www.yext.com",
+          "linkType": "URL"
+        },
+        {
+          "label": "Link4",
+          "link": "https://www.yext.com",
+          "linkType": "URL"
+        },
+        {
+          "label": "Link5",
+          "link": "https://www.yext.com",
+          "linkType": "URL"
+        }
+      ],
+      "logo": {
+        "height": 100,
+        "url": "http://a.mktgcdn.com/p-sandbox/hoFxFk7QZTsh10XJezwLl_mU98YpK9h9-5lF0O7W7f4/100x100.png",
+        "width": 100
+      }
+    },
+    "c_instagram": "https://www.instagram.com/",
+    "c_linkedIn": "https://www.linkedin.com/",
+    "c_nearbySectionAPIKey": "27abe2413d2b5235faf104f4da2dbacd",
+    "c_reviewsAPIKey": "27abe2413d2b5235faf104f4da2dbacd",
+    "c_searchExperienceAPIKey": "68e822ea312f5c2aa3344298e3b46775",
+    "c_searchPage": [
+      {
+        "slug": "search"
+      }
+    ],
+    "c_twitter": "https://www.twitter.com/",
+    "c_youtube": "https://www.youtube.com/",
+    "id": "site-entity",
+    "meta": {
+      "entityType": {
+        "id": "ce_site",
+        "uid": 99976
+      },
+      "locale": "en"
+    },
+    "name": "Site Entity",
+    "uid": 44265960
+  },
+  "businessId": 3179846,
+  "key": "0:robots:knowledgeGraph:0:en",
+  "locale": "en",
+  "meta": {
+    "locale": "en"
+  },
+  "siteDomain": "",
+  "siteId": 0,
+  "siteInternalHostName": ""
+}

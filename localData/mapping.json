@@ -1,0 +1,35 @@
+{
+  "404": [
+    "cog-internal-feature-static-file-generation-404__en__cfcd208495d565ef66e7dff9f98764da.json"
+  ],
+  "city": [
+    "directory-city__en__079eb4445a6081f892ff62cc2e625b96.json",
+    "directory-city__en__9ec2354f0570935926cc6c942e373bfd.json",
+    "directory-city__en__46352e29f8d2a7146ee07381a2b9f939.json",
+    "directory-city__en__c389cd3905c78c152e8b4c323fc3c5f7.json",
+    "directory-city__en__6e4334d6a7537624fc8e6d34bb7d8212.json"
+  ],
+  "entity": [
+    "locations__en__fc3b089b0de9dc16fe36e277e912c476.json",
+    "locations__en__ef482c0bb3c03f033016ff14ec1b1f32.json",
+    "locations__en__c92c7145485958611b3c837a5572565a.json",
+    "locations__en__cf512c421357d4d26abadf634c8fd02b.json",
+    "locations__en__523b47f32451a0308aeb1fa12d4d6252.json",
+    "locations__en__ec22b121de591d690774fde58e7f83da.json",
+    "locations__en__b16b0409c63d155f11e218ae9603d327.json",
+    "locations__en__bd58f118011dbc1a6b6e80e3feb786b0.json",
+    "locations__en__e1288bcfb181465e3c88e8d542f3c4bf.json",
+    "locations__en__8f011ecaaf0f38876a5427814d218869.json"
+  ],
+  "region": [
+    "directory-region__en__e9e34b7a36278bcdf769fe2319967071.json",
+    "directory-region__en__88b234726850f4152894a80f6317cb09.json",
+    "directory-region__en__a3714aea116b213120aa55b5fa1d7085.json",
+    "directory-region__en__73104184fa77b1c79bc8dfc5fcc4bea3.json"
+  ],
+  "robots": [
+    "cog-internal-feature-static-file-generation-robots__en__cfcd208495d565ef66e7dff9f98764da.json"
+  ],
+  "root": ["directory-root__en__03dc49892dc49b28a4d3e61eea1fa2a6.json"],
+  "search": ["search-page__en__9a2881566bac56e2bf1ecc2b89990355.json"]
+}

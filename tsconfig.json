@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "baseUrl": "./",
+    "target": "ESNext",
+    "strict": true,
+    "moduleResolution": "Node",
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "src/*": ["./src/*"]
+    },
+    "types": ["vite/client"],
+    "outDir": "./dist"
+  },
+  "include": ["src"]
+}
