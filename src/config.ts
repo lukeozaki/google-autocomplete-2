@@ -7,6 +7,7 @@ declare global {
   const YEXT_PUBLIC_MAPS_API_KEY: string;
   const YEXT_PUBLIC_LIVE_API_KEY: string;
   const YEXT_PUBLIC_SAVED_FILTER_ID: string;
+  const YEXT_PUBLIC_MAX_LIVE_API_SUGGESTION: string;
 }
 
 const config: ConfigurationProviderContextType = {
