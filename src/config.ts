@@ -22,7 +22,7 @@ export default config;
 export const MAPS_API_KEY = YEXT_PUBLIC_MAPS_API_KEY;
 
 // Path for the search page.
-// Exported here since it's required across multiple pages such as the nearby section and directory search bar.
+// Exported here since it's required across multiple pages such as the nearby section and directory search bar
 export const FALLBACK_SEARCH_PATH = "search";
 // Static filter field for FilterSearch.
 export const LOCATOR_STATIC_FILTER_FIELD = "builtin.location";
