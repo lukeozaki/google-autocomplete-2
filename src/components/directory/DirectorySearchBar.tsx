@@ -8,6 +8,7 @@ import { SearchHeadlessProvider } from "@yext/search-headless-react";
 import { FilterSearch } from "@yext/search-ui-react";
 import GeolocateButton from "src/components/search/GeolocateButton";
 import { encodeStaticFilters } from "src/components/search/utils/filterEncodings";
+import GooglePredictionsBox from "src/components/search/GooglePredictionsBoxWithoutMap";
 
 const searchFields = [
   {
@@ -47,7 +48,7 @@ const DirectorySearchBarInternal = (props: DirectorySearchBarProps) => {
   return (
     <div className="flex items-center justify-center">
       <div className="relative w-[350px!important] justify-center h-[54px]">
-        <FilterSearch
+        {/* <FilterSearch
           customCssClasses={{
             filterSearchContainer: "absolute w-full mb-0",
             inputElement: "p-4 text-sm h-auto",
@@ -69,7 +70,8 @@ const DirectorySearchBarInternal = (props: DirectorySearchBarProps) => {
               window.location.href = `${searcherPath}?${searchParams.toString()}`;
             }
           }}
-        />
+        /> */}
+        <GooglePredictionsBox />
       </div>
       <GeolocateButton
         className="ml-4"

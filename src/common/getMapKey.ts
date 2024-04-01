@@ -15,3 +15,17 @@ export const getMapKey = () => {
 
   return authObj;
 };
+
+export const getGoogleMapKey = () => {
+  if (MAPS_API_KEY === "<REPLACE-ME>") {
+    console.error(
+      "Add a map provider API key to config.ts or as a site variable to enable map functionality on staging or prod."
+    );
+  }
+
+  const authObj = isLocalDev
+    ? { googleMapsClientId: "gme-yextinc" }
+    : { googleMapsApiKey: MAPS_API_KEY };
+
+  return authObj;
+};
